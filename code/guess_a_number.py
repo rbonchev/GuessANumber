@@ -4,7 +4,7 @@ computer_number = random.randint(1, 100)
 
 attempts = 10
 
-for attempt in range(4):
+for attempt in range(10):
     player_input = input("Guess the number between 1 and 100: ")
     attempts -= 1
     print(f"Attempts left: {attempts}")
